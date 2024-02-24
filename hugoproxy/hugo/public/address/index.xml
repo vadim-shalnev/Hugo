@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Addresses on </title>
+    <link>//localhost:1313/address/</link>
+    <description>Recent content in Addresses on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/address/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/address/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/address/search/</guid>
+      <description>Geo API Документация Маршрут: /api/address/search метод POST&#xA;type SearchRequest struct { Query string `json:&amp;#34;query&amp;#34;` } type SearchResponse struct { Addresses []*Address `json:&amp;#34;addresses&amp;#34;` } Маршрут: /api/address/geocode метод POST&#xA;type GeocodeRequest struct { Lat string `json:&amp;#34;lat&amp;#34;` Lng string `json:&amp;#34;lng&amp;#34;` } type GeocodeResponse struct { Addresses []*Address `json:&amp;#34;addresses&amp;#34;` } Провайдер API: https://dadata.ru/api/</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on </title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Test on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/address/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/address/search/</guid>
+      <description>Geo API Документация Маршрут: /api/address/search метод POST&#xA;type SearchRequest struct { Query string `json:&amp;#34;query&amp;#34;` } type SearchResponse struct { Addresses []*Address `json:&amp;#34;addresses&amp;#34;` } Маршрут: /api/address/geocode метод POST&#xA;type GeocodeRequest struct { Lat string `json:&amp;#34;lat&amp;#34;` Lng string `json:&amp;#34;lng&amp;#34;` } type GeocodeResponse struct { Addresses []*Address `json:&amp;#34;addresses&amp;#34;` } Провайдер API: https://dadata.ru/api/</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/tasks/formentor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tasks/formentor/</guid>
+      <description>Привет. Прошу детальнее объяснить задачу с построением графа и сбалансированного дерева в браузере. я что то не понял&#xA;и еще счетчик в браузере не обновляется, без перезапуска hugo.</description>
+    </item>
+    <item>
+      <title>Построение сбалансированного бинарного дерева</title>
+      <link>//localhost:1313/tasks/binary/binary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tasks/binary/binary/</guid>
+      <description>Задача построить сбалансированное бинарное дерево Используя AVL дерево, постройте сбалансированное бинарное дерево, на текущей странице.&#xA;Нужно написать воркер, который стартует дерево с 5 элементов, и каждые 5 секунд добавляет новый элемент в дерево.&#xA;Каждые 5 секунд на странице появляется актуальная версия, сбалансированного дерева.&#xA;При вставке нового элемента, в дерево, нужно перестраивать дерево, чтобы оно оставалось сбалансированным.&#xA;Как только дерево достигнет 100 элементов, генерируется новое дерево с 5 элементами.&#xA;package binary import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34;time&amp;#34; ) type Node struct { Key int Height int Left *Node Right *Node } type AVLTree struct { Root *Node } func NewNode(key int) *Node { return &amp;amp;Node{Key: key, Height: 1} } func (t *AVLTree) Insert(key int) { t.</description>
+    </item>
+  </channel>
+</rss>

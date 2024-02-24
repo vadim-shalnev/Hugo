@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  hugo:
+    build: ./hugo
+    ports:
+      - "1313:1313"
+    networks:
+      - mynetwork
+    volumes:
+      - content:/app/content
+
+  proxy:
+    build: ./proxy
+    ports:
+      - "8080:8080"
+    depends_on:
+      - hugo
+    networks:
+      - mynetwork
+    volumes:
+      - content:/app/content
+
+networks:
+  mynetwork:
+    driver: bridge
+
+volumes:
+  content:
